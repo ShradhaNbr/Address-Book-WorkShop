@@ -3,6 +3,8 @@ package com.addressbook;
 import java.util.Scanner;
 
 public class AddressBook {
+
+    //Method to create the contact
     public void createContact() {
         Scanner sc = new Scanner(System.in);
         Contact contact = new Contact();
