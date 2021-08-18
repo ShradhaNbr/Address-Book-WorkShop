@@ -24,5 +24,6 @@ public class AddressBook {
         contact.setphoneNumber(sc.nextLong());
         System.out.println("Enter the Email Id");
         contact.setemail(sc.next());
+        sc.close();
     }
 }
